@@ -1,0 +1,419 @@
+body {
+  text-align: center;
+  margin: 20px;
+  padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited
+{
+    text-decoration: none;
+    color: black;
+                
+}
+
+
+/*fonts*/
+
+@font-face {
+  font-family: whitefeater;
+  src: url(fonts/Calluna\ Light.otf);
+  }
+  
+  
+  @font-face {
+  font-family: judson;
+  src: url(fonts/Judson-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: abs;
+    src: url(fonts/Dynalight-Regular.otf);
+    }
+  
+    @font-face {
+      font-family: acre;
+      src: url(fonts/Jonathan\ Ball\ -\ Acre-Medium.otf);
+      }
+
+/*title*/
+
+.sungyoon
+{   
+    display: inline-block;
+    font-family: abs;
+    font-weight: 1;
+    font-size: 110px;
+    color:rgb(12, 67, 250);
+   
+    margin-top: -10px;
+    margin-left: 15px;
+    transition: opacity 0.6s;
+    transition: color 0.6s;
+    
+    text-align: center;
+   
+   
+}
+.rebl
+{
+
+  font-family: whitefeather;
+  font-weight:lighter;
+  font-size: 14px;
+  color: rgb(212, 218, 224);
+  opacity: 0.9;
+  margin-left: -15px;
+  margin-top: -92px;
+  margin-bottom: 60px;
+  text-align: center;
+
+}
+
+.ok {
+   color: rgb(29, 52, 157);
+}
+
+
+.sungyoon:hover
+{
+  
+    opacity:  0.9;
+    color:rgb(145, 145, 145);
+    color: rgb(216, 216, 216);
+      
+
+}
+
+
+
+
+h1 {
+    display: inline-block;
+  }
+  
+  
+
+h1:hover
+{
+  
+    opacity:  1;
+    color:rgb(34, 89, 254);
+
+}
+
+
+
+
+
+    
+
+
+
+
+h1:hover
+{
+  
+    opacity:  1;
+    color:rgb(237, 38, 38);
+
+}
+
+
+
+h1 {
+  display: inline-block;
+}
+
+.events {
+  font-size: 25px;
+  color: rgb(231, 231, 231);
+}
+
+
+
+.complextro{
+  font-size: 25px;
+  color: rgb(236, 236, 236);
+}
+
+/*navbar*/
+
+.navbar ul {
+  
+  display: inline-block;
+  margin-left: -15px;
+  
+}
+
+.navbar ul li{
+  position: relative;
+  list-style: none;
+  float: left;
+  text-align: center;
+}
+
+
+.navbar ul li a{
+  display: inline-block;
+  font-size: 20px;
+  font-family: whitefeather;
+  color: rgb(240, 240, 240);
+  text-align: left;
+  padding: 15px 35px;
+  
+}
+
+.navbar ul li a:hover{
+  color:rgb(0, 51, 255);
+
+ 
+}
+
+.navbar ul li ul{
+  position: absolute;
+  left: -50px;;
+  top: 40px;
+  width: 1px;
+  display: none;
+}
+
+
+.navbar ul li ul li {
+  width: 100%;
+  border-top: 1px solid;
+}
+
+
+.navbar ul li:hover > ul{
+  display:inline-block;
+  padding: 0px 65px;
+  text-align: right;
+
+}
+
+
+iframe {
+  
+  width: 60%;
+  height: calc(0.5625 * 60vw);
+}
+
+.project{
+
+  font-size: 25px;
+  color: rgb(203, 203, 203);
+}
+
+
+
+/*  footer    */
+
+.footnotes {
+  
+  position: relative;
+  margin-top: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family:whitefeather;
+  font-weight: lighter;
+  color: #ababab;
+  line-height: 5px;
+    
+}
+
+.fa-instagram{
+  font-size: 30px;
+  margin-right: 5px;
+  color:  #ababab;
+  
+}
+
+.fa-instagram:hover{
+  cursor: pointer;
+  color: rgb(195, 66, 141);
+  transition: color 0.4s;
+}
+
+
+.fa-youtube{
+  font-size: 30px;
+  margin-right: 3px;
+  color:  #ababab;
+  
+}
+
+.fa-youtube:hover{
+  cursor: pointer;
+  color: rgb(195, 66, 66);
+  transition: color 0.4s;
+}
+
+.fa-soundcloud{
+  font-size: 30px;
+  color:  #ababab;
+
+}
+
+.fa-soundcloud:hover{
+  cursor: pointer;
+  color: rgb(195, 113, 66);
+  transition: color 0.4s;
+}
+
+
+
+
+
+
+
+
+
+.bio {
+    color: black;
+    font-size: 20px;
+  }
+
+.name {
+    font-size: 30px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .box .col-1{ 
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .col-1 img{ 
+
+  width: 100%;
+  padding-bottom: 20px;
+  
+  
+}
+
+
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 965px){
+.container .box .col-1 img{ 
+
+  width: 100%;
+  padding-bottom: 10px;
+  
+  
+}
+}
+
+@media only screen and (max-width: 605px){
+
+  .sungyoon
+  {
+      
+      font-size: 70px;
+      
+  }
+
+  .rebl 
+  {
+    font-size: 10px;
+    margin-top: -65px;
+  }
+
+  .navbar ul li a {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .fa-instagram {
+    font-size: 15px;
+  }
+
+  .fa-youtube {
+    font-size: 15px;
+  }
+  .fa-soundcloud {
+    font-size: 15px;
+  }
+
+  .footnotes {
+   
+   font-size: 10px; 
+}
+
+.complextro {
+
+  font-size: 15px;
+
+}
+
+.container .box .col-1 img{ 
+
+  width: 100%;
+  padding-bottom: 6px;
+  
+  
+}
+
+}
+
+
+@media only screen and (max-width: 366px){
+
+  .sungyoon
+  {
+      
+      font-size: 60px;
+      
+  }
+
+  .rebl 
+  {
+    font-size: 10px;
+    margin-top: -60px;
+  }
+
+  .navbar ul li a {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .project{
+
+    font-size: 15px;
+    color: rgb(203, 203, 203);
+  }
+
+
+  .container .box .col-1 img{ 
+
+    width: 100%;
+    padding-bottom: 3px;
+    
+    
+  }
+}
+
