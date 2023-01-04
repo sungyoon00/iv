@@ -200,8 +200,14 @@ h1 {
 
 iframe {
   
-  width: 60%;
-  height: calc(0.5625 * 60vw);
+  width: 75%;
+  height: calc(0.5625 * 75vw);
+}
+
+iframe.sounds {
+  
+  width: 80%;
+  height: calc(0.3625 * 80vw);
 }
 
 .project{
@@ -333,14 +339,14 @@ iframe {
   .sungyoon
   {
       
-      font-size: 70px;
+      font-size:90px;
       
   }
 
   .rebl 
   {
     font-size: 10px;
-    margin-top: -65px;
+    margin-top: -80px;
   }
 
   .navbar ul li a {
@@ -376,6 +382,17 @@ iframe {
   padding-bottom: 6px;
   
   
+}
+iframe {
+  
+  width: 90%;
+  height: calc(0.5625 * 90vw);
+}
+
+iframe.sounds {
+  
+  width: 90%;
+  height: calc(0.3625 * 90vw);
 }
 
 }
