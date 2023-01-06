@@ -207,7 +207,7 @@ iframe {
 iframe.sounds {
   
   width: 80%;
-  height: calc(0.3625 * 80vw);
+  height: calc(0.25 * 80vw);
 }
 
 .project{
