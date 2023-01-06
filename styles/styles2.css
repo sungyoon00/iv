@@ -329,12 +329,19 @@ iframe.sounds {
 
   width: 100%;
   padding-bottom: 10px;
-  
-  
+
 }
+  .project{
+
+    font-size: 22px;
+    color: rgb(203, 203, 203);
+  }
+  
+  
+
 }
 
-@media only screen and (max-width: 605px){
+@media only screen and (max-width: 609px){
 
   .sungyoon
   {
@@ -395,10 +402,16 @@ iframe.sounds {
   height: calc(0.3625 * 90vw);
 }
 
+.project{
+
+  font-size: 20px;
+  color: rgb(203, 203, 203);
+}
+
 }
 
 
-@media only screen and (max-width: 366px){
+@media only screen and (max-width: 370px){
 
   .sungyoon
   {
@@ -418,11 +431,7 @@ iframe.sounds {
     padding: 5px;
   }
 
-  .project{
 
-    font-size: 15px;
-    color: rgb(203, 203, 203);
-  }
 
 
   .container .box .col-1 img{ 
@@ -432,5 +441,11 @@ iframe.sounds {
     
     
   }
+  .project{
+
+    font-size: 15px;
+    color: rgb(203, 203, 203);
+  }
+  
 }
 
